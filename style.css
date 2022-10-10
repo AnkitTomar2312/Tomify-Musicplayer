@@ -73,7 +73,7 @@ h1{
 .bottom{
     position: sticky;
     height: 16vh;
-    width: 103vw;
+    width: 100vw;
     background-color: black;
     bottom: 0;
     display: flex;
