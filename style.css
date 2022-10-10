@@ -126,3 +126,97 @@ h1{
     transition: opacity 0.8s ease-in;
     visibility: hidden;
 }
+
+.songInfo{
+    height: "7px";
+    width: "1000rem" ;  
+}
+@media screen and (min-width: 200px) and (max-width: 420px) {
+    body {
+      background-color: lightblue;
+    }
+    .bg-2{
+        width: 204vw;
+        height: 204vh;    }
+    .nav-bar{
+        width: 204vw;
+        height: 30vh;
+    }
+    nav ul{
+        height: 24vh;
+    }
+    nav ul li {
+        padding-left: 23vw;
+        font-size: 1.5rem;
+    }
+    .brand{
+        font-size: 60px;
+    }
+    .brand img {
+        
+        padding-right: 15px;
+    }
+    .songBanner{
+        display: none;
+    }
+    .container{
+        height: 110vh;
+        width: 156vw;
+        margin-bottom: 16vh;
+        margin-left: 17vw;
+    }
+    .bottom{
+        height: 24vh;
+        width: 204vw;
+    }
+    .songInfo{
+       height: 19vh;
+       width: 202vw;
+    }
+    #icon-below-gif{
+        width: 202vw;
+        height: 32px;
+    }
+    #myProgressBar {
+        width: 192vw;
+    }
+    .icons{
+        margin-bottom: 4vh;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .songItem{
+        height: 13vh;
+    }
+    .timeStamp{
+        display: none;
+    }
+    .songName{
+        font-size: 5vh;
+        
+    }
+    .songItem img {
+        width: 44vw;
+        height: 12vh;
+    }
+    .brand img {
+        width: 96px;
+    }
+
+  }
+
+
+
+
+
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .bg-2{
+        width: 170vw;
+        height: 174vh;    }
+  }
