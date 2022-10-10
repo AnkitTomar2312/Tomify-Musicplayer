@@ -11,7 +11,7 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
     {songName: "The-Search", filePath: "./songs/1.mp3", coverpath: "./covers/the-search.jpg"},
     {songName: "Fight Back", filePath: "./songs/2.mp3", coverpath: "./covers/fightback.jpg"},
-    {songName: "Gangsta Secret", filePath: "./songs/3.mp3", coverpath: "./covers/secret.jpg"},
+    {songName: "Gangsta", filePath: "./songs/3.mp3", coverpath: "./covers/secret.jpg"},
     {songName: "Begging", filePath: "./songs/4.mp3", coverpath: "./covers/begging.jpg"},
     {songName: "No Retreat", filePath: "./songs/5.mp3", coverpath: "./covers/retreat.jpg"},
     {songName: "Cold", filePath: "./songs/6.mp3", coverpath: "./covers/cold.jpg"},
