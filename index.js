@@ -96,6 +96,8 @@ document.getElementById('next').addEventListener('click', ()=>{
     audioElement.src = `songs/${songIndex}.mp3`;
     audioElement.currentTime = 0;
     audioElement.play();
+    gif.style.visibility="visible";
+    gif.style.opacity=1;
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
 
@@ -111,6 +113,8 @@ document.getElementById('previous').addEventListener('click', ()=>{
     audioElement.src = `songs/${songIndex}.mp3`;
     audioElement.currentTime = 0;
     audioElement.play();
+    gif.style.visibility="visible";
+    gif.style.opacity=1;
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
 
