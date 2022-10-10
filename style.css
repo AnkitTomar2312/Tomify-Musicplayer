@@ -6,8 +6,8 @@ body{
 
 .bg-2{
     position: absolute;
-    width: 96rem;
-    height: 40rem;
+    width: 99vw;
+    height: 45rem;
     z-index: -1;
     background-color: black;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ h1{
 .bottom{
     position: sticky;
     height: 16vh;
-    width: 100vw;
+    width: 99vw;
     background-color: black;
     bottom: 0;
     display: flex;
@@ -125,12 +125,25 @@ h1{
 #icon-below-gif{
     transition: opacity 0.8s ease-in;
     visibility: hidden;
+    height: 13px;
+    width: 99vw;
 }
 
 .songInfo{
-    height: "7px";
-    width: "1000rem" ;  
+    height: 7px;
+    width: 99vw ;  
 }
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 200px) and (max-width: 420px) {
     body {
       background-color: lightblue;
